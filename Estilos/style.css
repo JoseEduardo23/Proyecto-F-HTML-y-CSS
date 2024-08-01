@@ -90,7 +90,7 @@
 }
 
 .Barra{
-    width: calc(100% + 16px);
+    width: calc(100% + 8px);
     margin-left: -8px;
     height: 70px;
     margin-top: -8px;
@@ -438,4 +438,75 @@ li {
 .accionesPerfil button[type="reset"] {
     background-color: #dc3545;
     color: #fff;
+}
+
+/*Ingreso Administradores*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Admin{
+    background-image: url(IMG/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.IMG4{
+    width: 500px;
+    height: 250px;
+    margin-left: 190px;
+    margin-top: 200px;
+}
+.FootAdm{
+    margin-top: 313px;
+}
+.Coment{
+    height: 35px;
+    margin-top: -10px;
+}
+.Admform{
+    position: absolute;
+    border: 2px solid rgb(251, 154, 170);
+    width: 450px;
+    height: 600px;
+    margin-top: -370px;
+    margin-left: 1070px;
+}
+.text1{
+    position: absolute;
+    margin-left: 182px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.text2{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 210px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+.Combobox{
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 370px;
+    margin-left: 70px;
+    width: 310px;
+    border-radius: 18px;
+    background-color:#616DDD;
+}
+.Select1{
+    height: 40px;
+    width: 250px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 5px;
+    background-color:#616DDD;
+}
+.Select1:hover.op1{
+    height: 40px;
+    width: 250px;
+    border-radius: 18px;
 }

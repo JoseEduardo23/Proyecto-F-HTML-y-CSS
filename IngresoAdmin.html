@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilos/style.css">
-    <title>Inicio de sesión</title>
+    <title>Administradores</title>
 </head>
-<body class="Body2">
-    
+<body class="Admin">
     <section class="Barra">
         <img class="Logo" src="Estilos/IMG/Logotipo.jpeg" alt="">
         <input type="text" class="Inp1" placeholder="Buscar">
@@ -18,24 +17,33 @@
         <li class="D">Nuevo</li>
         <li class="E">Opiniones</li>
     </ul>
-    <button class="BR">Registrarse</button>   
+    <button class="BR">Registrarse</button> 
+    <button class="BI">Iniciar Sesión</button>  
  </section>
+    <section class="Logotipo">
+        <img class="IMG4" src="Estilos/IMG/PNGlogo1.png" alt="">
+    </section>
 
-    <form class="container2">
-        <p class="title2">BIENVENIDO A CODENEST</p>
-        <img class="Imgl" src="Estilos/IMG/Logopng.png" alt="">
-        <div class="InicioS">
-            <p class="datos">Email</p>
-            <label> <input class="inp2" type="email" name="" placeholder="example@gmmail.com"> </label><br>
-               
-            <p class="datos">Contraseña</p>
-            <label> <input class="inp2"  type="password" name=""> </label><br>
-        </div>
-        <button class="B3">Ingresar</button>
-        <button class="B4">Cancelar</button>
-    </form>
+    <div class="Admform">
+        <p class="text1">INGRESAR</p>
+        <p class="text2">Sean bienvenidos a esta gran oportunidad de <br>
+        aprender a programar con la ayuda del equipo <br>
+        de CodeNest Learning.</p>
+
+        <label class="Combobox">ROLES
+            <select class="Select1" id="">
+                <option class="op1" value="option0"></option>
+                <option class="op1" value="option1">Administrador</option>
+                <option class="op1" value="option2">Estudiante</option>
+            </select>
+        </label>
+        <form class="ingresos">
+
+        </form>
+    </div>
+
 </body>
-<footer>
+<footer class="FootAdm">
     <div class="footer-content">
         <div class="footer-column">
             <h3>CodeNest</h3>
@@ -64,7 +72,7 @@
         <div class="footer-column">
             <h3>¿Que podemos mejorar?</h3>
             <form action="#">
-                <input type="email" placeholder="Ingresa tu comentario">
+                <input class="Coment" type="text" placeholder="Ingresa tu comentario">
                 <button type="submit">Enviar</button>
             </form>
         </div>            
