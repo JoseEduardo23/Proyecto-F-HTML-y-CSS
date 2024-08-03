@@ -474,6 +474,7 @@ html, body {
     height: 600px;
     margin-top: -370px;
     margin-left: 1070px;
+    border-radius: 24px;
 }
 .text1{
     position: absolute;
@@ -484,7 +485,7 @@ html, body {
 .text2{
     position: absolute;
     margin-left: 65px;
-    margin-top: 210px;
+    margin-top: 230px;
     font-family: 'Times New Roman';
     font-size: 18px;
 }
@@ -509,4 +510,108 @@ html, body {
     height: 40px;
     width: 250px;
     border-radius: 18px;
+}
+.Navegacion{
+    margin-top: 20px;
+    background-color: #28a745;
+    height: 60px;
+    align-content: center;
+}
+.BG{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.BA{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+.Data{
+    height: 30px;
+    border-radius: 10px;
+}
+.CursosMod{
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 90%;
+    height: 500px;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+.C1{
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 90%;
+    height: 75px;
+    margin-left: 70px;
+}
+.PC1{
+    margin-left: 60px;
+    margin-top: 5px;
+    height: 65px;
+    border-radius: 20px;
+}
+.cursotxt1{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -45px;
+}
+.BM1{
+    position: absolute;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.BE1{
+    position: absolute;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 920px;
+    margin-top: 20px;
+}
+.C2{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 90%;
+    height: 75px;
+    margin-left: 70px;
+}
+.C3{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 90%;
+    height: 75px;
+    margin-left: 70px;
+}
+.C4{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 90%;
+    height: 75px;
+    margin-left: 70px;
+}
+.BCur{
+height: 40px;
+margin-left: 100px;
+margin-top: 17px;
+border-radius: 15px;
+}
+.Bnot{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 17px;
+    border-radius: 15px;
 }
